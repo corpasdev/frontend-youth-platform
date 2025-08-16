@@ -2,13 +2,18 @@
   "name": "frontend-youth-platform",
   "type": "module",
   "version": "0.0.1",
+  "engines": {
+    "node": ">=18.14.1"
+  },
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "start": "npx serve dist",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.13.2"
+    "astro": "^5.13.2",
+    "serve": "^14.2.1"
   }
 }
